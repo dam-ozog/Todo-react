@@ -1,0 +1,77 @@
+.add-section {
+    font-size: 18px;
+    padding: 20px 15px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.add-section input {
+    margin: 5px 10px;
+    padding: 5px 8px;
+}
+
+
+.add-section button {
+    padding: 5px 25px;
+    background-color: #49aaff;
+    color: aliceblue;
+    font-size: 19px;
+    text-decoration: none;
+    transition: 0.5s;
+    border: 1px solid #49aaff;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.priority-input input {
+    font-size: 20px;
+}
+
+.add-section button:hover {
+    background-color: aliceblue;
+    color: #49aaff;
+    border: 1px solid #49aaff;
+}
+
+.input-add {
+    position: relative;
+    width: 250px;
+}
+
+.input-add input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1em;
+    outline: none;
+    transition: 0.5s;
+}
+
+.input-add span {
+    position: absolute;
+    pointer-events: none;
+    left: 15px;
+    top: 15px;
+    color: gray;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.input-add input:focus ~ span, .input-add input:valid ~ span {
+    color: green;
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.80em;
+    padding: 0px 5px;
+    margin-top: -12px;
+    background-color: #fff;
+    border-left: 1px solid green;
+    border-right: 1px solid green;
+}
+
+.input-add input:focus, .input-add input:valid {
+    border: 1px solid green;
+}

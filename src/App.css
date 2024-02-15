@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.app button {
+  padding: 3px 7px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.task {
+  line-height: 40px;
+}
+
+.app h2 {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,18 @@
+.active {
+    margin: 20px;
+}
+
+.active h2 {
+    font-weight: 600;
+}
+
+.done {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+hr {
+    width: 100vw;
+}
+
+

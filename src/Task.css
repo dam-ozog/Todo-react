@@ -1,0 +1,45 @@
+.task-active {
+    padding: 10px;
+}
+
+.active-important-btn {
+    background-color: #ffffff;
+    color: #44aaaa;
+    border: 1px solid #44aaaa;
+    border-radius: 5px;
+    padding: 7px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    text-transform: uppercase;
+    margin:5px 5px;
+    display: inline-block;
+}
+
+.active-important-btn:hover {
+    background-color: #44aaaa;
+    color: #ffffff;
+    border: 1px solid #44aaaa;
+}
+
+.delete-btn {
+    background-color: #ffffff;
+    color: #44aaaa;
+    border: 1px solid #44aaaa;
+    border-radius: 60%;
+    padding: 5px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    text-transform: uppercase;
+    margin:5px 5px;
+    display: inline-block;
+}
+
+.delete-btn:hover {
+    background-color: #44aaaa;
+    color: #ffffff;
+    border: 1px solid #44aaaa;
+}
+
+.task-done {
+    margin-top: 10px;
+}
